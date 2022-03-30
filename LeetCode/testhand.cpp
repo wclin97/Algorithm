@@ -4,8 +4,6 @@ struct node{
     int data;
     node* next;
 };
-
-
 node* create(int Array[]){
     node *p, *pre, *head;
     head = new node;
